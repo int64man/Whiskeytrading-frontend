@@ -6,4 +6,5 @@ name: Swift
 on:
   push:
     branches: [ "main" ]
-  pull_
+  pull_request:
+    branch
