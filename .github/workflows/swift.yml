@@ -16,4 +16,5 @@ jobs:
 
     steps:
     - name: Setup Swift
-      uses: swift-actions/setu
+      uses: swift-actions/setup-swift@v1.20.0
+ 
