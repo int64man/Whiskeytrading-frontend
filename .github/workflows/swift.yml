@@ -18,4 +18,5 @@ jobs:
     - name: Setup Swift
       uses: swift-actions/setup-swift@v1.20.0
       with:
-        swift-vers
+        swift-version: 5.7.1
+    - uses
