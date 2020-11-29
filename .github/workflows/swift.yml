@@ -19,4 +19,4 @@ jobs:
       uses: swift-actions/setup-swift@v1.20.0
       with:
         swift-version: 5.7.1
-    - uses
+    - uses: actions/checkout@v3
