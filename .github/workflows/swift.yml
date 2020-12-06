@@ -20,3 +20,4 @@ jobs:
       with:
         swift-version: 5.7.1
     - uses: actions/checkout@v3
+    - name: Build
