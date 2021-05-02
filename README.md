@@ -24,3 +24,19 @@ Copy source files into your own project
 You can use Swift Package Manager to integrate the library by adding the following dependency in your Package.swift file or by adding directly within Xcode
 
 `.Package(url: "https://github.com/adamrushy/OpenAISwift.git", majorVersion: 1)`
+
+## Example Usage 🤩
+
+Import the module in your application.
+
+`import OpenAISwift`
+
+Set your API token from creating one [here](https://beta.openai.com/account/api-keys).
+
+`let openAI = OpenAISwift(authToken: "TOKEN")`
+
+Create a call to the completions API, passing in a text prompt.
+
+```swift
+openAI.sendCompletion(with: "Hello how are you", maxTokens: 100) { result in // Result<OpenAI, OpenAIError>
+    switch result {
