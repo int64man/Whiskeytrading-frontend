@@ -40,3 +40,21 @@ Create a call to the completions API, passing in a text prompt.
 ```swift
 openAI.sendCompletion(with: "Hello how are you", maxTokens: 100) { result in // Result<OpenAI, OpenAIError>
     switch result {
+    case .success(let success):
+        print(success.choices.first?.text ?? "")
+    case .failure(let failure):
+        print(failure.localizedDescription)
+    }
+}
+```
+
+The API will return an `OpenAI` object containing the corresponding text items.
+
+You can also specify a different model to use for the completions. The `sendCompletion` method uses the `text-davinci-003` model by default.
+
+```swift
+openAI.sendCompletion(with: "A random emoji", model: .gpt3(.ada)) { result in // Result<OpenAI, OpenAIError>
+    // switch on result to get the response or error
+}
+```
+For a full list of the supported models see [OpenAIModelType.swift](https://github.com/adamrushy/OpenAISwift/blob/main/Sources/OpenAISwift/Models/OpenAIModelType.swift). For more information on the models see the [OpenAI API Documentation](https://beta.openai.com/docs/models).
