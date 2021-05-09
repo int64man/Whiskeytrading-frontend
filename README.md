@@ -58,3 +58,29 @@ openAI.sendCompletion(with: "A random emoji", model: .gpt3(.ada)) { result in //
 }
 ```
 For a full list of the supported models see [OpenAIModelType.swift](https://github.com/adamrushy/OpenAISwift/blob/main/Sources/OpenAISwift/Models/OpenAIModelType.swift). For more information on the models see the [OpenAI API Documentation](https://beta.openai.com/docs/models).
+
+OpenAISwift also supports Swift concurrency so you can use Swift’s async/await syntax to fetch completions.
+
+```swift
+do {
+    let result = try await openAI.sendCompletion(with: "A random emoji")
+} catch {
+    print(error.localizedDescription)
+}
+```
+
+The latest `gpt-3.5-turbo` model is available too : 
+
+```swift
+func chat() async {
+    do {
+        let chat: [ChatMessage] = [
+            ChatMessage(role: .system, content: "You are a helpful assistant."),
+            ChatMessage(role: .user, content: "Who won the world series in 2020?"),
+            ChatMessage(role: .assistant, content: "The Los Angeles Dodgers won the World Series in 2020."),
+            ChatMessage(role: .user, content: "Where was it played?")
+        ]
+                    
+        let result = try await openAI.sendChat(with: chat)
+        
+        print(result.choices.first?.message?.content ?? "Nothing")
