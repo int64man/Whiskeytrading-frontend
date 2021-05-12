@@ -1,2 +1,5 @@
 //
-//  Created by Adam Rus
+//  Created by Adam Rush - OpenAISwift
+//
+
+import 
