@@ -5,4 +5,5 @@
 import Foundation
 
 struct Command: Encodable {
-    le
+    let prompt: String
+    let 
