@@ -2,4 +2,6 @@
 //  Created by Adam Rush - OpenAISwift
 //
 
-import 
+import Foundation
+
+struct Co
