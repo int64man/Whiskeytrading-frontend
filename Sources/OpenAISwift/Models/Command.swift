@@ -6,4 +6,5 @@ import Foundation
 
 struct Command: Encodable {
     let prompt: String
-    let 
+    let model: String
+    let
