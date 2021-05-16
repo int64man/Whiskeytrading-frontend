@@ -4,4 +4,5 @@
 
 import Foundation
 
-struct Co
+struct Command: Encodable {
+    le
