@@ -7,4 +7,5 @@ import Foundation
 struct Command: Encodable {
     let prompt: String
     let model: String
-    let
+    let maxTokens: Int
+    
