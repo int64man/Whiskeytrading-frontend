@@ -8,4 +8,5 @@ struct Command: Encodable {
     let prompt: String
     let model: String
     let maxTokens: Int
-    
+    let temperature: Double
+  
