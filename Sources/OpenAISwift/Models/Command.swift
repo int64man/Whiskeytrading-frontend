@@ -9,4 +9,5 @@ struct Command: Encodable {
     let model: String
     let maxTokens: Int
     let temperature: Double
-  
+    
+    enum CodingKey
