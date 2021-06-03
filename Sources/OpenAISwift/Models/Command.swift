@@ -10,4 +10,5 @@ struct Command: Encodable {
     let maxTokens: Int
     let temperature: Double
     
-    enum CodingKey
+    enum CodingKeys: String, CodingKey {
+ 
