@@ -12,3 +12,5 @@ struct Command: Encodable {
     
     enum CodingKeys: String, CodingKey {
         case prompt
+        case model
+     
