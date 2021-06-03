@@ -11,4 +11,4 @@ struct Command: Encodable {
     let temperature: Double
     
     enum CodingKeys: String, CodingKey {
- 
+        case prompt
