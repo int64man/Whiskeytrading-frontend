@@ -14,4 +14,5 @@ struct Command: Encodable {
         case prompt
         case model
         case maxTokens = "max_tokens"
-        cas
+        case temperature
+    }
