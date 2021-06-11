@@ -16,3 +16,4 @@ struct Command: Encodable {
         case maxTokens = "max_tokens"
         case temperature
     }
+}
