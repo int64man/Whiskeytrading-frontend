@@ -2,4 +2,6 @@
 //  Created by Adam Rush - OpenAISwift
 //
 
-import Found
+import Foundation
+
+public protocol Pa
