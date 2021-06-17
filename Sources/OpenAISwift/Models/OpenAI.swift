@@ -6,4 +6,4 @@ import Foundation
 
 public protocol Payload: Codable { }
 
-publi
+public struct OpenAI<T: Payl
