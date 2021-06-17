@@ -4,4 +4,6 @@
 
 import Foundation
 
-public protocol Pa
+public protocol Payload: Codable { }
+
+publi
