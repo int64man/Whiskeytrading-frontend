@@ -7,4 +7,5 @@ import Foundation
 public protocol Payload: Codable { }
 
 public struct OpenAI<T: Payload>: Codable {
-    pub
+    public let object: String
+   
