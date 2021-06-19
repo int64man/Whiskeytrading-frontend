@@ -12,4 +12,5 @@ public struct OpenAI<T: Payload>: Codable {
     public let choices: [T]
 }
 
-public struct TextResult: 
+public struct TextResult: Payload {
+    public let text: 
