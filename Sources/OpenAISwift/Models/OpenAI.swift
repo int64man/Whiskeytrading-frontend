@@ -13,4 +13,7 @@ public struct OpenAI<T: Payload>: Codable {
 }
 
 public struct TextResult: Payload {
-    public let text: 
+    public let text: String
+}
+
+public
