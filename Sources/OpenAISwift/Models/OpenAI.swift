@@ -16,4 +16,4 @@ public struct TextResult: Payload {
     public let text: String
 }
 
-public
+public struct MessageResult: Paylo
