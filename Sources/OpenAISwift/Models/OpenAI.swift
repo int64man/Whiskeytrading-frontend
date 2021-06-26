@@ -17,4 +17,5 @@ public struct TextResult: Payload {
 }
 
 public struct MessageResult: Payload {
-    public let
+    public let message: ChatMessage
+}
