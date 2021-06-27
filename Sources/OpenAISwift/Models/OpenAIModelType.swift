@@ -54,3 +54,24 @@ public enum OpenAIModelType {
         /// Capable of very simple tasks, usually the fastest model in the GPT-3 series, and lowest cost.
         ///
         /// > Model Name: text-ada-001
+        case ada = "text-ada-001"
+    }
+    
+    /// A set of models that can understand and generate code, including translating natural language to code
+    ///
+    /// [Codex Models OpenAI API Docs](https://beta.openai.com/docs/models/codex)
+    ///
+    ///  >  Limited Beta
+    public enum Codex: String {
+        /// Most capable Codex model. Particularly good at translating natural language to code. In addition to completing code, also supports inserting completions within code.
+        ///
+        /// > Model Name: code-davinci-002
+        case davinci = "code-davinci-002"
+        
+        /// Almost as capable as ``davinci`` Codex, but slightly faster. This speed advantage may make it preferable for real-time applications.
+        ///
+        /// > Model Name: code-cushman-001
+        case cushman = "code-cushman-001"
+    }
+    
+    
