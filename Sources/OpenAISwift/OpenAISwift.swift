@@ -1,1 +1,2 @@
-import Foundati
+import Foundation
+#if canImport(F
