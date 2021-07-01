@@ -26,3 +26,14 @@ extension Endpoint {
     var method: String {
         switch self {
             case .completions, .edits, .chat:
+            return "POST"
+        }
+    }
+    
+    func baseURL() -> String {
+        switch self {
+            case .completions, .edits, .chat:
+            return "https://api.openai.com"
+        }
+    }
+}
