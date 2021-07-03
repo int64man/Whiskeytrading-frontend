@@ -1,2 +1,2 @@
 import Foundation
-#if canImport(F
+#if canImport(FoundationNetworking) && ca
