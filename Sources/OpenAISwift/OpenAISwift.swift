@@ -1,3 +1,4 @@
 import Foundation
 #if canImport(FoundationNetworking) && canImport(FoundationXML)
-import FoundationNetwo
+import FoundationNetworking
+import Foundation
