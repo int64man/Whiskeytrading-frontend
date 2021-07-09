@@ -4,4 +4,4 @@ import FoundationNetworking
 import FoundationXML
 #endif
 
-publ
+public enum OpenAIError: Error
