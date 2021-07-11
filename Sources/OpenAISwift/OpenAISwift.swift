@@ -5,4 +5,5 @@ import FoundationXML
 #endif
 
 public enum OpenAIError: Error {
-    case genericError(err
+    case genericError(error: Error)
+    case decodingError
