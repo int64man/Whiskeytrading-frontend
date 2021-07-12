@@ -9,4 +9,4 @@ public enum OpenAIError: Error {
     case decodingError(error: Error)
 }
 
-pu
+public class OpenAI
