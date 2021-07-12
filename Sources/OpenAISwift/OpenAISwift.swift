@@ -9,4 +9,5 @@ public enum OpenAIError: Error {
     case decodingError(error: Error)
 }
 
-public class OpenAI
+public class OpenAISwift {
+    filepriva
