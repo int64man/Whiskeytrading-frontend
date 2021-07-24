@@ -12,4 +12,5 @@ public enum OpenAIError: Error {
 public class OpenAISwift {
     fileprivate(set) var token: String?
     
-    public init(authToken: String)
+    public init(authToken: String) {
+        self.toke
