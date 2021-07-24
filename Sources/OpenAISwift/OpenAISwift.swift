@@ -10,4 +10,6 @@ public enum OpenAIError: Error {
 }
 
 public class OpenAISwift {
-    fileprivate(set) var token: Str
+    fileprivate(set) var token: String?
+    
+    public
