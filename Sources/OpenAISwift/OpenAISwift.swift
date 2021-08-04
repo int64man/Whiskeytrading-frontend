@@ -18,4 +18,4 @@ public class OpenAISwift {
 }
 
 extension OpenAISwift {
-    /// Send a Com
+    /// Send a Completion to the Ope
