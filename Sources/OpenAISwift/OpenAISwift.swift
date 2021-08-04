@@ -18,4 +18,5 @@ public class OpenAISwift {
 }
 
 extension OpenAISwift {
-    /// Send a Completion to the Ope
+    /// Send a Completion to the OpenAI API
+    /// - Parame
