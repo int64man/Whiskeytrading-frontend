@@ -20,4 +20,5 @@ public class OpenAISwift {
 extension OpenAISwift {
     /// Send a Completion to the OpenAI API
     /// - Parameters:
-    ///   - prompt: The T
+    ///   - prompt: The Text Prompt
+    ///   - model: T
