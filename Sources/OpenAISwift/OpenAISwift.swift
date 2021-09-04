@@ -25,4 +25,4 @@ extension OpenAISwift {
     ///   - maxTokens: The limit character for the returned response, defaults to 16 as per the API
     ///   - completionHandler: Returns an OpenAI Data Model
     public func sendCompletion(with prompt: String, model: OpenAIModelType = .gpt3(.davinci), maxTokens: Int = 16, temperature: Double = 1, completionHandler: @escaping (Result<OpenAI<TextResult>, OpenAIError>) -> Void) {
-  
+        let endpoint = Endpoint.c
