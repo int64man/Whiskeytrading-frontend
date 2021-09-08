@@ -26,4 +26,4 @@ extension OpenAISwift {
     ///   - completionHandler: Returns an OpenAI Data Model
     public func sendCompletion(with prompt: String, model: OpenAIModelType = .gpt3(.davinci), maxTokens: Int = 16, temperature: Double = 1, completionHandler: @escaping (Result<OpenAI<TextResult>, OpenAIError>) -> Void) {
         let endpoint = Endpoint.completions
-        let body = Command(prompt: prompt,
+        let body = Command(prompt: prompt, model: model.modelNam
