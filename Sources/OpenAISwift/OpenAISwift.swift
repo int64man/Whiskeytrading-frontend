@@ -29,4 +29,5 @@ extension OpenAISwift {
         let body = Command(prompt: prompt, model: model.modelName, maxTokens: maxTokens, temperature: temperature)
         let request = prepareRequest(endpoint, body: body)
         
-        makeRequest(request: request) { r
+        makeRequest(request: request) { result in
+            switch
