@@ -33,4 +33,4 @@ extension OpenAISwift {
             switch result {
             case .success(let success):
                 do {
-          
+                    let res = try 
