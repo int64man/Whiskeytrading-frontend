@@ -36,4 +36,5 @@ extension OpenAISwift {
                     let res = try JSONDecoder().decode(OpenAI<TextResult>.self, from: success)
                     completionHandler(.success(res))
                 } catch {
-                    completionHandler(.failure(.decodingErr
+                    completionHandler(.failure(.decodingError(error: error)))
+  
