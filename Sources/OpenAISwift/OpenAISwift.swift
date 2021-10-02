@@ -37,4 +37,5 @@ extension OpenAISwift {
                     completionHandler(.success(res))
                 } catch {
                     completionHandler(.failure(.decodingError(error: error)))
-  
+                }
+       
