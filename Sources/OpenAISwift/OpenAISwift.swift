@@ -38,4 +38,4 @@ extension OpenAISwift {
                 } catch {
                     completionHandler(.failure(.decodingError(error: error)))
                 }
-       
+            case .failu
