@@ -45,4 +45,5 @@ extension OpenAISwift {
     }
     
     /// Send a Edit request to the OpenAI API
-    /// - P
+    /// - Parameters:
+    ///
