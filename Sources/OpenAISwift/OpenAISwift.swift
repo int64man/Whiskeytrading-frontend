@@ -47,4 +47,4 @@ extension OpenAISwift {
     /// Send a Edit request to the OpenAI API
     /// - Parameters:
     ///   - instruction: The Instruction For Example: "Fix the spelling mistake"
-  
+    ///   - model: The 
