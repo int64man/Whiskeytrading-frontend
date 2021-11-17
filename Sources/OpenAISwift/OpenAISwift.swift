@@ -51,4 +51,5 @@ extension OpenAISwift {
     ///   - input: The Input For Example "My nam is Adam"
     ///   - completionHandler: Returns an OpenAI Data Model
     public func sendEdits(with instruction: String, model: OpenAIModelType = .feature(.davinci), input: String = "", completionHandler: @escaping (Result<OpenAI<TextResult>, OpenAIError>) -> Void) {
-        let endpoint = Endp
+        let endpoint = Endpoint.edits
+        let b
