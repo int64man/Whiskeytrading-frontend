@@ -52,4 +52,5 @@ extension OpenAISwift {
     ///   - completionHandler: Returns an OpenAI Data Model
     public func sendEdits(with instruction: String, model: OpenAIModelType = .feature(.davinci), input: String = "", completionHandler: @escaping (Result<OpenAI<TextResult>, OpenAIError>) -> Void) {
         let endpoint = Endpoint.edits
-        let body = Instruction(instruction: instruction, model: model.modelName, input: inp
+        let body = Instruction(instruction: instruction, model: model.modelName, input: input)
+        let req
