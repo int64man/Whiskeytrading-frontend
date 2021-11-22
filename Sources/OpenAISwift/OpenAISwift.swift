@@ -56,4 +56,5 @@ extension OpenAISwift {
         let request = prepareRequest(endpoint, body: body)
         
         makeRequest(request: request) { result in
-            sw
+            switch result {
+        
