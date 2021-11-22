@@ -55,4 +55,4 @@ extension OpenAISwift {
         let body = Instruction(instruction: instruction, model: model.modelName, input: input)
         let request = prepareRequest(endpoint, body: body)
         
-        makeRequest(request
+        makeRequest(request: request) { res
