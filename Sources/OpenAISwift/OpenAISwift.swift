@@ -57,4 +57,5 @@ extension OpenAISwift {
         
         makeRequest(request: request) { result in
             switch result {
-            case .success(let succe
+            case .success(let success):
+                do {
