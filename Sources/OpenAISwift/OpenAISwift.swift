@@ -61,4 +61,5 @@ extension OpenAISwift {
                 do {
                     let res = try JSONDecoder().decode(OpenAI<TextResult>.self, from: success)
                     completionHandler(.success(res))
-                } ca
+                } catch {
+                    com
