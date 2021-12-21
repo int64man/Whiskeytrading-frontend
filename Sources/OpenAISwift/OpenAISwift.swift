@@ -70,4 +70,4 @@ extension OpenAISwift {
         }
     }
     
-    /// S
+    /// Send a Chat request to
