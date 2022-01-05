@@ -74,4 +74,4 @@ extension OpenAISwift {
     /// - Parameters:
     ///   - messages: Array of `ChatMessages`
     ///   - model: The Model to use, the only support model is `gpt-3.5-turbo`
-    ///   - maxTokens: used in OpenAI's text-generating 
+    ///   - maxTokens: used in OpenAI's text-generating API to specify the maximum nu
