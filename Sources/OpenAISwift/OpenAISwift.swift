@@ -74,4 +74,4 @@ extension OpenAISwift {
     /// - Parameters:
     ///   - messages: Array of `ChatMessages`
     ///   - model: The Model to use, the only support model is `gpt-3.5-turbo`
-    ///   - maxTokens: used in OpenAI's text-generating API to specify the maximum number of tokens (words) that should be generated in response to a prompt. This parameter is used to prevent the model from generating excessively long or rambling responses that may not be relevant to the prompt. The actual length of the r
+    ///   - maxTokens: used in OpenAI's text-generating API to specify the maximum number of tokens (words) that should be generated in response to a prompt. This parameter is used to prevent the model from generating excessively long or rambling responses that may not be relevant to the prompt. The actual length of the response may be shorter th
