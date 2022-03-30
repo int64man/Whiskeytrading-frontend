@@ -79,4 +79,4 @@ extension OpenAISwift {
     ///   - completionHandler: Returns an OpenAI Data Model
     public func sendChat(with messages: [ChatMessage], model: OpenAIModelType = .chat(.chatgpt), maxTokens: Int? = nil, temperature: Double = 1.0, completionHandler: @escaping (Result<OpenAI<MessageResult>, OpenAIError>) -> Void) {
         let endpoint = Endpoint.chat
-        let body = ChatConversation(messages: messages, model: mode
+        let body = ChatConversation(messages: messages, model: model.modelName, maxTokens: max
