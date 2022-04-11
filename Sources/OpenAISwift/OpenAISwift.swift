@@ -82,4 +82,5 @@ extension OpenAISwift {
         let body = ChatConversation(messages: messages, model: model.modelName, maxTokens: maxTokens, temperature: temperature)
         let request = prepareRequest(endpoint, body: body)
         
-        makeRequest(request: request) { result i
+        makeRequest(request: request) { result in
+            switch resu
