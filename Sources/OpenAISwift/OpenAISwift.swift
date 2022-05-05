@@ -87,4 +87,4 @@ extension OpenAISwift {
                 case .success(let success):
                     do {
                         let res = try JSONDecoder().decode(OpenAI<MessageResult>.self, from: success)
-          
+                        completionHan
