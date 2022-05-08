@@ -89,4 +89,4 @@ extension OpenAISwift {
                         let res = try JSONDecoder().decode(OpenAI<MessageResult>.self, from: success)
                         completionHandler(.success(res))
                     } catch {
-            
+                        completionHandler(.f
