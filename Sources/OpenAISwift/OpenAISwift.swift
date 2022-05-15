@@ -91,4 +91,4 @@ extension OpenAISwift {
                     } catch {
                         completionHandler(.failure(.decodingError(error: error)))
                     }
-                case
+                case .failure(let
