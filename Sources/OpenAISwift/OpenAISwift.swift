@@ -92,4 +92,5 @@ extension OpenAISwift {
                         completionHandler(.failure(.decodingError(error: error)))
                     }
                 case .failure(let failure):
-                    completionHandler(.failure(.genericError(error: failure
+                    completionHandler(.failure(.genericError(error: failure)))
+            }
