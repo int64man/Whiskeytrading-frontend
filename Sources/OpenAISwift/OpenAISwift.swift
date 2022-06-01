@@ -97,4 +97,4 @@ extension OpenAISwift {
         }
     }
     
-    
+    private func makeR
