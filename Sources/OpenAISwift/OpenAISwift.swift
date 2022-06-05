@@ -97,4 +97,5 @@ extension OpenAISwift {
         }
     }
     
-    private func makeRequest(request: URLRequest, completionHandler: @escaping (Result<Data, Error>) -> 
+    private func makeRequest(request: URLRequest, completionHandler: @escaping (Result<Data, Error>) -> Void) {
+        le
