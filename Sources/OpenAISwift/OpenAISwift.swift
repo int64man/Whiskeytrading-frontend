@@ -98,4 +98,4 @@ extension OpenAISwift {
     }
     
     private func makeRequest(request: URLRequest, completionHandler: @escaping (Result<Data, Error>) -> Void) {
-        le
+        let session = URLSes
