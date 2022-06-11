@@ -99,4 +99,4 @@ extension OpenAISwift {
     
     private func makeRequest(request: URLRequest, completionHandler: @escaping (Result<Data, Error>) -> Void) {
         let session = URLSession.shared
-        let task = sessi
+        let task = session.dataTask(with: r
