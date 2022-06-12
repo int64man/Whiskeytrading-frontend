@@ -100,4 +100,5 @@ extension OpenAISwift {
     private func makeRequest(request: URLRequest, completionHandler: @escaping (Result<Data, Error>) -> Void) {
         let session = URLSession.shared
         let task = session.dataTask(with: request) { (data, response, error) in
-            if let error = er
+            if let error = error {
+            
