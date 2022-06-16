@@ -101,4 +101,5 @@ extension OpenAISwift {
         let session = URLSession.shared
         let task = session.dataTask(with: request) { (data, response, error) in
             if let error = error {
-                completionHandler(.f
+                completionHandler(.failure(error))
+       
