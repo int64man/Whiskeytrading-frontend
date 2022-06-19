@@ -102,4 +102,4 @@ extension OpenAISwift {
         let task = session.dataTask(with: request) { (data, response, error) in
             if let error = error {
                 completionHandler(.failure(error))
-            } else if let
+            } else if let data = data {
