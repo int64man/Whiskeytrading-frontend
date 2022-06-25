@@ -103,4 +103,5 @@ extension OpenAISwift {
             if let error = error {
                 completionHandler(.failure(error))
             } else if let data = data {
-                completionHandler(.succ
+                completionHandler(.success(data))
+       
