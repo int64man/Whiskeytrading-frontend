@@ -110,4 +110,4 @@ extension OpenAISwift {
         task.resume()
     }
     
-    private func prepareRequest
+    private func prepareRequest<BodyType: Encodabl
