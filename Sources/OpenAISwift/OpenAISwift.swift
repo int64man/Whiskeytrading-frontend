@@ -107,4 +107,7 @@ extension OpenAISwift {
             }
         }
         
-        task.r
+        task.resume()
+    }
+    
+    privat
