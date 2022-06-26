@@ -105,4 +105,6 @@ extension OpenAISwift {
             } else if let data = data {
                 completionHandler(.success(data))
             }
-     
+        }
+        
+        task.r
