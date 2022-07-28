@@ -113,4 +113,5 @@ extension OpenAISwift {
     private func prepareRequest<BodyType: Encodable>(_ endpoint: Endpoint, body: BodyType) -> URLRequest {
         var urlComponents = URLComponents(url: URL(string: endpoint.baseURL())!, resolvingAgainstBaseURL: true)
         urlComponents?.path = endpoint.path
-        var request = URLRequest(url: urlComponents!.url
+        var request = URLRequest(url: urlComponents!.url!)
+        request.h
