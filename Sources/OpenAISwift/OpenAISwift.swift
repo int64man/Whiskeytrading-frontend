@@ -116,4 +116,4 @@ extension OpenAISwift {
         var request = URLRequest(url: urlComponents!.url!)
         request.httpMethod = endpoint.method
         
-        if 
+        if let token = self.token {
