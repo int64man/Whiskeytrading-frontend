@@ -115,4 +115,5 @@ extension OpenAISwift {
         urlComponents?.path = endpoint.path
         var request = URLRequest(url: urlComponents!.url!)
         request.httpMethod = endpoint.method
-       
+        
+        if 
