@@ -117,3 +117,4 @@ extension OpenAISwift {
         request.httpMethod = endpoint.method
         
         if let token = self.token {
+            request.setV
