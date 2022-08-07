@@ -117,4 +117,5 @@ extension OpenAISwift {
         request.httpMethod = endpoint.method
         
         if let token = self.token {
-            request.setValue("Bearer \(token)", forHTTPHeaderField: "A
+            request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
+    
