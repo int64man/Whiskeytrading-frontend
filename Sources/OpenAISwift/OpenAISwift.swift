@@ -120,4 +120,4 @@ extension OpenAISwift {
             request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
         }
         
-      
+        request.setValue("applica
