@@ -123,4 +123,4 @@ extension OpenAISwift {
         request.setValue("application/json", forHTTPHeaderField: "content-type")
         
         let encoder = JSONEncoder()
-        if let encoded = t
+        if let encoded = try? encoder.encode(body) {
