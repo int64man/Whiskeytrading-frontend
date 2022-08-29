@@ -124,3 +124,4 @@ extension OpenAISwift {
         
         let encoder = JSONEncoder()
         if let encoded = try? encoder.encode(body) {
+            request.h
