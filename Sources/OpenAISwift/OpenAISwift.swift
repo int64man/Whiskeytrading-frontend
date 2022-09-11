@@ -127,3 +127,4 @@ extension OpenAISwift {
             request.httpBody = encoded
         }
         
+        return request
