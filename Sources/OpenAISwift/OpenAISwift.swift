@@ -131,4 +131,5 @@ extension OpenAISwift {
     }
 }
 
-extension OpenAIS
+extension OpenAISwift {
+    //
