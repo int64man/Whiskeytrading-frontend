@@ -128,3 +128,7 @@ extension OpenAISwift {
         }
         
         return request
+    }
+}
+
+extension OpenAIS
