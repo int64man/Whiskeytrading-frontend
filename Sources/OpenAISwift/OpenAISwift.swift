@@ -132,4 +132,4 @@ extension OpenAISwift {
 }
 
 extension OpenAISwift {
-    //
+    /// Send a Completion t
