@@ -133,4 +133,5 @@ extension OpenAISwift {
 
 extension OpenAISwift {
     /// Send a Completion to the OpenAI API
-    /// - Pa
+    /// - Parameters:
+    ///   - 
