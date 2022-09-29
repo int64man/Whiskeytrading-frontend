@@ -134,4 +134,5 @@ extension OpenAISwift {
 extension OpenAISwift {
     /// Send a Completion to the OpenAI API
     /// - Parameters:
-    ///   - prompt: The Text Pr
+    ///   - prompt: The Text Prompt
+    ///   - m
