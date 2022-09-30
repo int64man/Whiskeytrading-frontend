@@ -135,4 +135,4 @@ extension OpenAISwift {
     /// Send a Completion to the OpenAI API
     /// - Parameters:
     ///   - prompt: The Text Prompt
-    ///   - model: The AI Model to Use. Set to `OpenAIModelType.gpt3(.davinci)` b
+    ///   - model: The AI Model to Use. Set to `OpenAIModelType.gpt3(.davinci)` by default which is the m
