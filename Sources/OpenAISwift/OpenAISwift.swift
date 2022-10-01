@@ -136,4 +136,4 @@ extension OpenAISwift {
     /// - Parameters:
     ///   - prompt: The Text Prompt
     ///   - model: The AI Model to Use. Set to `OpenAIModelType.gpt3(.davinci)` by default which is the most capable model
-    ///   - maxTokens: The limit character for the return
+    ///   - maxTokens: The limit character for the returned response, def
