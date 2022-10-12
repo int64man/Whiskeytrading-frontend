@@ -138,4 +138,4 @@ extension OpenAISwift {
     ///   - model: The AI Model to Use. Set to `OpenAIModelType.gpt3(.davinci)` by default which is the most capable model
     ///   - maxTokens: The limit character for the returned response, defaults to 16 as per the API
     ///   - temperature: Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. Defaults to 1
-    /// - Returns: Returns an Op
+    /// - Returns: Returns an OpenAI Data Model
