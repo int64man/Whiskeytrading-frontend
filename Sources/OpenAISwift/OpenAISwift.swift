@@ -140,4 +140,5 @@ extension OpenAISwift {
     ///   - temperature: Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. Defaults to 1
     /// - Returns: Returns an OpenAI Data Model
     @available(swift 5.5)
-    @available(macOS 10.15, iOS 1
+    @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
+   
