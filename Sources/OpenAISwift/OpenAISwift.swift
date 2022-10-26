@@ -143,4 +143,5 @@ extension OpenAISwift {
     @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
     public func sendCompletion(with prompt: String, model: OpenAIModelType = .gpt3(.davinci), maxTokens: Int = 16, temperature: Double = 1) async throws -> OpenAI<TextResult> {
         return try await withCheckedThrowingContinuation { continuation in
-            sendCompletion(with: prompt, model: model, maxTokens: maxTokens, temperature: temperature) { re
+            sendCompletion(with: prompt, model: model, maxTokens: maxTokens, temperature: temperature) { result in
+                con
