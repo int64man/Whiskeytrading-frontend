@@ -144,4 +144,6 @@ extension OpenAISwift {
     public func sendCompletion(with prompt: String, model: OpenAIModelType = .gpt3(.davinci), maxTokens: Int = 16, temperature: Double = 1) async throws -> OpenAI<TextResult> {
         return try await withCheckedThrowingContinuation { continuation in
             sendCompletion(with: prompt, model: model, maxTokens: maxTokens, temperature: temperature) { result in
-                continuation.resume(with: 
+                continuation.resume(with: result)
+            }
+    
