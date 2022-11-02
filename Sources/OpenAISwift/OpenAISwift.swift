@@ -149,4 +149,5 @@ extension OpenAISwift {
         }
     }
     
-    /// Send a Edit request t
+    /// Send a Edit request to the OpenAI API
+    /// - 
