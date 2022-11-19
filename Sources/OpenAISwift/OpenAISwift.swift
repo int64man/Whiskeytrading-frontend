@@ -154,4 +154,5 @@ extension OpenAISwift {
     ///   - instruction: The Instruction For Example: "Fix the spelling mistake"
     ///   - model: The Model to use, the only support model is `text-davinci-edit-001`
     ///   - input: The Input For Example "My nam is Adam"
-    /// - Returns: Returns
+    /// - Returns: Returns an OpenAI Data Model
+   
