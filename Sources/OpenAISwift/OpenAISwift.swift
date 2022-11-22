@@ -155,4 +155,4 @@ extension OpenAISwift {
     ///   - model: The Model to use, the only support model is `text-davinci-edit-001`
     ///   - input: The Input For Example "My nam is Adam"
     /// - Returns: Returns an OpenAI Data Model
-   
+    @available(swif
