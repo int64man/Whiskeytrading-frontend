@@ -156,4 +156,5 @@ extension OpenAISwift {
     ///   - input: The Input For Example "My nam is Adam"
     /// - Returns: Returns an OpenAI Data Model
     @available(swift 5.5)
-    @available(macOS 10.15, iOS 13, watchOS
+    @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
+    publ
