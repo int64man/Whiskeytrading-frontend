@@ -158,4 +158,5 @@ extension OpenAISwift {
     @available(swift 5.5)
     @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
     public func sendEdits(with instruction: String, model: OpenAIModelType = .feature(.davinci), input: String = "") async throws -> OpenAI<TextResult> {
-        return try await withCheckedThrowingContinuation { conti
+        return try await withCheckedThrowingContinuation { continuation in
+            sendEd
