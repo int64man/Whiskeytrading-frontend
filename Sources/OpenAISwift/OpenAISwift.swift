@@ -161,3 +161,5 @@ extension OpenAISwift {
         return try await withCheckedThrowingContinuation { continuation in
             sendEdits(with: instruction, model: model, input: input) { result in
                 continuation.resume(with: result)
+            }
+ 
