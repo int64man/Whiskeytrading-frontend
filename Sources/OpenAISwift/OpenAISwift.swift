@@ -162,4 +162,7 @@ extension OpenAISwift {
             sendEdits(with: instruction, model: model, input: input) { result in
                 continuation.resume(with: result)
             }
+        }
+    }
+    
  
