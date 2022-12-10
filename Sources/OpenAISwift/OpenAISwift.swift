@@ -165,4 +165,4 @@ extension OpenAISwift {
         }
     }
     
- 
+    /// Send a Chat request to 
