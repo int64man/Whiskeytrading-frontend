@@ -165,4 +165,5 @@ extension OpenAISwift {
         }
     }
     
-    /// Send a Chat request to 
+    /// Send a Chat request to the OpenAI API
+    /
