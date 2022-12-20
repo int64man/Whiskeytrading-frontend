@@ -168,4 +168,4 @@ extension OpenAISwift {
     /// Send a Chat request to the OpenAI API
     /// - Parameters:
     ///   - messages: Array of `ChatMessages`
-    ///   - model: The Model to use, the only support mo
+    ///   - model: The Model to use, the only support model is `gpt-3.5-
