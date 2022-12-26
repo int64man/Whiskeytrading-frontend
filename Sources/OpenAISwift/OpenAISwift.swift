@@ -169,4 +169,4 @@ extension OpenAISwift {
     /// - Parameters:
     ///   - messages: Array of `ChatMessages`
     ///   - model: The Model to use, the only support model is `gpt-3.5-turbo`
-    ///   - maxT
+    ///   - maxTokens: used in OpenAI
