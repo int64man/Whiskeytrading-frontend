@@ -176,4 +176,4 @@ extension OpenAISwift {
     public func sendChat(with messages: [ChatMessage], model: OpenAIModelType = .chat(.chatgpt), maxTokens: Int? = nil, temperature: Double = 1.0) async throws -> OpenAI<MessageResult> {
         return try await withCheckedThrowingContinuation { continuation in
             sendChat(with: messages, model: model, maxTokens: maxTokens, temperature: temperature) { result in
- 
+                con
