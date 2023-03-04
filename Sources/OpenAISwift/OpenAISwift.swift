@@ -178,4 +178,6 @@ extension OpenAISwift {
             sendChat(with: messages, model: model, maxTokens: maxTokens, temperature: temperature) { result in
                 continuation.resume(with: result)
             }
-      
+        }
+    }
+}
